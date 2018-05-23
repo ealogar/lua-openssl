@@ -3,6 +3,15 @@ lua-openssl toolkit - A free, MIT-licensed OpenSSL binding for Lua.
 [![Build Status](https://travis-ci.org/zhaozg/lua-openssl.svg)](https://travis-ci.org/zhaozg/lua-openssl)
 [![Build status](https://ci.appveyor.com/api/projects/status/f8xchhlj035yqq88/branch/master?svg=true)](https://ci.appveyor.com/project/zhaozg/lua-openssl/branch/master)
 
+# why this repo
+
+This is a fork of original zhaozg library to tag working versions and avoid unexpected problems when installing it via luarocks.
+The original repository owner does not publis releases and sometimes our installation breaks.
+We have tagged a release/1.0.0 with a verson that doesn'0t break compatibility with openssl 1.0.0 until maintainer fix it.
+You can download the forked library via luarocks
+
+```luarocks install openssl-baikal```
+
 # Index
 
 1. [Introduction](#introduction)
