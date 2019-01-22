@@ -1,16 +1,16 @@
-package = "openssl"
-version = "scm-5"
+package = "openssl-baikal"
+version = "1.1.0-1"
 
 source = {
-  url = "gitrec://github.com/zhaozg/lua-openssl",
-  tag = "0.7.2"
+  url = "git://github.com/ealogar/lua-openssl.git",
+  tag = "1.1.0"
 }
 
 description = {
   summary    = "Openssl binding for Lua",
-  homepage   = "https://github.com/zhaozg/lua-openssl",
+  homepage   = "https://github.com/ealogar/lua-openssl",
   license    = "MIT",
-  maintainer = "George Zhao",
+  maintainer = "Eduardo Alonso",
   detailed   = [[
   ]],
 }
