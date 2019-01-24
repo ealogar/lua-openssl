@@ -437,7 +437,7 @@ static int luaclose_openssl(lua_State *L)
   return 0;
 }
 
-LUALIB_API int luaopen_openssl_baikal(lua_State*L)
+LUALIB_API int luaopen_openssl(lua_State*L)
 {
   static void* init = NULL;
   if (init == NULL)
