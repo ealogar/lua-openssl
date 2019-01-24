@@ -59,6 +59,14 @@ build = {
         }
       }
     },
+    linux = {
+      modules = {
+        openssl = {
+          incdirs = {"$(OPENSSL_DIR)/include"},
+          libdirs = {"$(OPENSSL_DIR)/lib"},
+        }
+      }
+    },
     macosx = {
       modules = {
         openssl = {
