@@ -30,7 +30,7 @@ build = {
   type = "builtin",
 
   modules = {
-    openssl = {
+    openssl_baikal = {
       sources = {
         "deps/auxiliar/auxiliar.c","src/asn1.c","src/bio.c","src/callback.c",
         "src/cipher.c","src/cms.c","src/compat.c","src/crl.c",
@@ -53,23 +53,15 @@ build = {
   platforms = {
     windows = {
       modules = {
-        openssl = {
+        openssl_baikal = {
           libraries = {"libeay32", "ssleay32", "ws2_32", "kernel32", "user32", "gdi32", "advapi32"},
           defines = {"LUA_BUILD_AS_DLL", "LUA_LIB", "WIN32_LEAN_AND_MEAN"},
         }
       }
     },
-    linux = {
-      modules = {
-        openssl = {
-          incdirs = {"$(OPENSSL_DIR)/include"},
-          libdirs = {"$(OPENSSL_DIR)/lib"},
-        }
-      }
-    },
     macosx = {
       modules = {
-        openssl = {
+        openssl_baikal = {
           incdirs = {"/usr/local/opt/openssl/include"},
           libdirs = {"/usr/local/opt/openssl/lib"},
         }
