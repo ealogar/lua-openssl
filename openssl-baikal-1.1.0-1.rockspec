@@ -36,7 +36,7 @@ build = {
         "src/cipher.c","src/cms.c","src/compat.c","src/crl.c",
         "src/csr.c","src/dh.c","src/digest.c","src/dsa.c",
         "src/ec.c","src/engine.c","src/hmac.c","src/lbn.c",
-        "src/lhash.c","src/misc.c","src/ocsp.c","src/openssl_baikal.c",
+        "src/lhash.c","src/misc.c","src/ocsp.c","src/openssl.c",
         "src/ots.c","src/pkcs7.c","src/pkcs12.c","src/pkey.c",
         "src/rsa.c","src/ssl.c","src/th-lock.c","src/util.c",
         "src/x509.c","src/xattrs.c","src/xexts.c","src/xname.c",
